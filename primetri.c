@@ -43,6 +43,7 @@ int main(int argc, char* argv[])
 			{
 				putchar(' ');
 			}
+			if(i * printLen/2 == 0) putchar(' ');
 		}
 		else
 		{
